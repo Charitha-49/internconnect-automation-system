@@ -1,8 +1,7 @@
 # internconnect-automation-system
 A backend automation system that tracks internship deadlines and sends automated email alerts to subscribed users using Streamlit, MySQL, and n8n workflow automation.
 Automated Internship Notification System
-Overview
-
+# Overview
 The Automated Internship Notification System is a backend-focused application that helps students stay updated about internship deadlines. The system allows users to subscribe to internships and automatically receive reminder emails before the deadline.
 
 This project demonstrates backend development, database integration, and workflow automation using n8n.
@@ -10,7 +9,7 @@ Instead of manually checking deadlines, the system automatically scans the datab
 
 # Key Features
 
- # User Features
+ ## User Features
     •	User signup and login authentication
     •	Browse available internships
     •	Search internships by title
@@ -19,13 +18,13 @@ Instead of manually checking deadlines, the system automatically scans the datab
     •	View subscribed internships in profile 
     •	Change account password
       
-  # Admin Features
+  ## Admin Features
     •	Post new internships
     •	View all internships
     •	Delete internships
     •	Manage internship listings
 
-  # Automation Features
+  ## Automation Features
     •	Automated workflow using n8n
     •	Daily deadline scanning
     •	Email notifications sent automatically
@@ -33,21 +32,17 @@ Instead of manually checking deadlines, the system automatically scans the datab
     •	Cron based scheduling
 
 # System Architecture
-  Frontend:
-    Streamlit Web Application
-  Backend:
-    Python
-    MySQL Database
-  Automation Layer:
-    n8n Workflow Automation
-  Notification Service:
-    Gmail API via n8n
-  Workflow:
-    •	Admin posts internship
-    •	Users subscribe to internships
-    •	n8n workflow runs daily
-    •	System checks upcoming deadlines
-    •	Emails are automatically sent to subscribed users
+ •	Frontend:Streamlit Web Application
+ •	Backend:Python,MySQL Database
+ •	Automation Layer:n8n Workflow Automation
+ •	Notification Service:Gmail API via n8n
+ •	Workflow:
+  •	Admin posts internship
+  •	Users subscribe to internships
+  •	n8n workflow runs daily
+  •	System checks upcoming deadlines
+  •	Emails are automatically sent to subscribed users
+
     
 # Technology Stack
   Frontend
