@@ -11,7 +11,7 @@ st.set_page_config(page_title="InternConnect", layout="wide")
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="#Siri4923",
+    password="your-password",
     database="internship_portal"
 )
 cursor = conn.cursor(buffered=True)  # buffered=True helps with fetchone() issues
@@ -271,4 +271,5 @@ elif menu == "Logout":
     st.session_state.role = None
     st.session_state.user_id = None
     st.success("Logged out successfully")
+
     st.rerun()
